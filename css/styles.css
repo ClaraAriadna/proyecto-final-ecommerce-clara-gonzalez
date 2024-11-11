@@ -24,6 +24,18 @@ body {
         grid-template-columns: auto 1fr;
         grid-template-rows: auto 1fr;
     }
+    #cajitas, #mosaico-8 {
+        grid-column: 1 / 2;
+    }
+    #fanal, #mosaico-11 {
+        grid-column: 2 / 3;
+    }
+    #cajitas, #fanal {
+        grid-row: 1 / 2;
+    }
+    #mosaico-8, #mosaico-11 {
+        grid-row: 2 / 3;
+    }
 }
 
 header, nav, main, footer {
