@@ -19,6 +19,11 @@ body {
     body {
         grid-template-columns: auto;
     }
+    #contenedor-productos {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto 1fr;
+    }
 }
 
 header, nav, main, footer {
