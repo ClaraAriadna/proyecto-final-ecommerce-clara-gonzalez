@@ -46,7 +46,7 @@ nav ul {
 }
 
 #lista-carrito {
-    list-style: none;
+    list-style-type: none;
 }
 
 nav ul li {
