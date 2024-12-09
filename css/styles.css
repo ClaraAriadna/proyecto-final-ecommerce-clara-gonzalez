@@ -41,7 +41,11 @@ header p {
     font-weight: bold;
 }
 
-nav ul, #lista-carrito {
+nav ul {
+    list-style: none;
+}
+
+#lista-carrito {
     list-style: none;
 }
 
