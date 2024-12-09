@@ -41,7 +41,7 @@ header p {
     font-weight: bold;
 }
 
-nav ul {
+nav ul, #lista-carrito {
     list-style: none;
 }
 
@@ -109,4 +109,8 @@ footer {
 
 .enlaces-externos {
     list-style: none;
+}
+
+button:hover {
+    background-color: lightskyblue;
 }
